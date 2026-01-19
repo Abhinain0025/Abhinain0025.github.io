@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Abhishek | Portfolio</title>
     <style>
         :root {
             --bg-color: #f0f2f5;
             --card-bg: #ffffff;
             --text-main: #2d3748;
             --text-light: #718096;
-            /* New Colorful Palette */
             --gradient-main: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             --accent-blue: #3182ce;
             --accent-purple: #805ad5;
@@ -26,7 +25,6 @@
             line-height: 1.6;
         }
 
-        /* Colorful Header Section */
         header {
             background: var(--gradient-main);
             color: white;
@@ -36,7 +34,6 @@
             margin-bottom: 2rem;
         }
 
-        /* Profile Photo Styling */
         .profile-container {
             position: relative;
             display: inline-block;
@@ -50,6 +47,7 @@
             object-fit: cover;
             border: 5px solid rgba(255, 255, 255, 0.5);
             box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            background-color: white; /* Fallback if image fails to load */
         }
 
         h1 { margin: 0.5rem 0; font-size: 2.5rem; }
@@ -73,7 +71,6 @@
             font-weight: bold;
         }
 
-        /* Card Styling */
         .card {
             background: var(--card-bg);
             padding: 1.5rem;
@@ -89,12 +86,10 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
 
-        /* Project Specific Colors */
         .project-trading { border-color: var(--accent-blue); }
         .project-game { border-color: var(--accent-purple); }
         .project-creative { border-color: var(--accent-teal); }
 
-        /* Colorful Tags */
         .tags { margin-top: 1rem; }
         .tag {
             display: inline-block;
@@ -111,7 +106,6 @@
         .tag-python { background-color: #c6f6d5; color: #276749; }
         .tag-tool { background-color: #e9d8fd; color: #553c9a; }
 
-        /* Skills Grid */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -126,7 +120,6 @@
         }
         .skill-item strong { color: var(--accent-purple); display: block; margin-bottom: 0.5rem; }
 
-        /* Social Buttons */
         .social-buttons {
             display: flex;
             justify-content: center;
@@ -144,7 +137,6 @@
         .btn-github { background-color: #24292e; }
         .btn-linkedin { background-color: #0077b5; }
         .btn-email { background: linear-gradient(to right, #ec4899, #8b5cf6); }
-        
         .btn:hover { opacity: 0.9; }
 
     </style>
@@ -220,7 +212,7 @@
         </div>
 
         <footer style="text-align: center; color: #a0aec0; margin-top: 4rem; font-size: 0.9rem;">
-            <p>&copy; 2026 Abhishek . Built with code & creativity.</p>
+            <p>&copy; 2026 Abhishek. Built with code & creativity.</p>
         </footer>
 
     </div>
